@@ -38,7 +38,7 @@
     "commitmsg": "validate-commit-msg",
     "lerna": "lerna",
     "lint": "lerna exec --concurrency 1 -- yarn lint",
-    "postinstall": "lerna bootstrap",
+    "lernapostinstall": "lerna bootstrap",
     "release": "lerna-semantic-release pre && lerna-semantic-release post && lerna-semantic-release perform",
     "release:dry-run": "lerna-semantic-release pre && lerna-semantic-release post",
     "test": "lerna exec --concurrency 1 -- yarn test",
