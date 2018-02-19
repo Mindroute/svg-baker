@@ -1,4 +1,5 @@
 {
+  "name": "svg-baker-packages",
   "private": true,
   "license": "MIT",
   "repository": "kisenka/svg-baker",
